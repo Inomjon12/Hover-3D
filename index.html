@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>3D Hover</title>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="card-header">
+          <img src="img/applelogo.png" alt="apple logo" />
+        </div>
+        <div class="card-body">
+          <h4>Inomjon Ismanaliyev</h4>
+          <img src="img/cardchip.png" alt="card" />
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".card"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
